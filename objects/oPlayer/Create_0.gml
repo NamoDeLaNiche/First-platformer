@@ -40,7 +40,7 @@ yspd=0;
 
 // Jumping
 grav = .3;
-maxVel = 4;
+maxVel = 4.5;
 onGround = true; 
 jumpMax = 1;
 jumpCount = 0;

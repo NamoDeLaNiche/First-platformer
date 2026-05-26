@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"oSlope","folderPath":"folders/Objects/oSlope.yy","name":"oSlope","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -27,7 +28,10 @@
   },
   "name":"Vrai premier platformer",
   "resources":[
+    {"id":{"name":"fntArial","path":"fonts/fntArial/fntArial.yy",},},
+    {"id":{"name":"fntHud","path":"fonts/fntHud/fntHud.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
+    {"id":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oSlope0","path":"objects/oSlope0/oSlope0.yy",},},
     {"id":{"name":"oSlope1","path":"objects/oSlope1/oSlope1.yy",},},
@@ -35,8 +39,10 @@
     {"id":{"name":"oSlope3","path":"objects/oSlope3/oSlope3.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"rmInit","path":"rooms/rmInit/rmInit.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rmLevel1","path":"rooms/rmLevel1/rmLevel1.yy",},},
+    {"id":{"name":"rmLevel2","path":"rooms/rmLevel2/rmLevel2.yy",},},
     {"id":{"name":"general_functions","path":"scripts/general_functions/general_functions.yy",},},
+    {"id":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},},
     {"id":{"name":"sPlayerCrouch","path":"sprites/sPlayerCrouch/sPlayerCrouch.yy",},},
     {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},},
     {"id":{"name":"sPlayerJump","path":"sprites/sPlayerJump/sPlayerJump.yy",},},
@@ -52,7 +58,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rmInit","path":"rooms/rmInit/rmInit.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rmLevel1","path":"rooms/rmLevel1/rmLevel1.yy",},},
+    {"roomId":{"name":"rmLevel2","path":"rooms/rmLevel2/rmLevel2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
