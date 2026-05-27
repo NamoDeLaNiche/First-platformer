@@ -1,6 +1,18 @@
 // Get inputs
 getControls();
 
+
+// Tp to room1 if you jump in room secret
+if room == rmSecret  && didJump
+{
+	secretRoomJumpCount = 1;
+}
+if onGround && secretRoomJumpCount == 1
+{
+	room_goto(rmLevel1)
+}
+
+
 // X Movement
 	// Direction
 	moveDir = rightKey - leftKey;
@@ -79,6 +91,7 @@ getControls();
 	// Reset jumping count
 	if onGround
 	{
+		didJump = false;
 		jumpCount = 0;
 		coyoteJumpTimer = coyoteJumpFrames;
 	}
@@ -92,6 +105,8 @@ getControls();
 	// Initiate Jump
 	if jumpKeyBuffered && jumpCount < jumpMax
 	{
+		// Tell the game you jumped
+		didJump = true;
 		// reset the buffer
  		jumpKeyBuffered = false;
 		jumpKeyBufferTimer = 0;

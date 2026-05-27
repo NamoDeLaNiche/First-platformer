@@ -33,7 +33,7 @@ moveDir = 0;
 airMoveSpd = 3.5;
 moveSpd = 2;
 minMoveSpd = 3;
-maxMoveSpd = 4.5;
+maxMoveSpd = 8;
 xspd=0;
 yspd=0;
 
@@ -42,9 +42,11 @@ yspd=0;
 grav = .3;
 maxVel = 4.5;
 onGround = true; 
+didJump = false;
 jumpMax = 1;
 jumpCount = 0;
-jumpHoldTimer = 0
+jumpHoldTimer = 0;
+secretRoomJumpCount = 0;
 
 // Jump values
 jumpSpd = [-3]
