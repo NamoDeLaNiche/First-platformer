@@ -6,6 +6,9 @@ if !instance_exists(oPlayer) exit;
 var _camWidth = camera_get_view_width(view_camera[0])
 var _camHeight = camera_get_view_height(view_camera[0])
 
+_camWidth = min(_camWidth, room_width);
+_camHeight = min(_camHeight, room_height);
+
 // Get camera targert coordinate
 var _camX = oPlayer.x - _camWidth/2
 var _camY = oPlayer.y - _camHeight/2

@@ -45,6 +45,7 @@
     {"id":{"name":"rmLevel2","path":"rooms/rmLevel2/rmLevel2.yy",},},
     {"id":{"name":"rmLevel3","path":"rooms/rmLevel3/rmLevel3.yy",},},
     {"id":{"name":"rmSecret","path":"rooms/rmSecret/rmSecret.yy",},},
+    {"id":{"name":"rmSecretEnd","path":"rooms/rmSecretEnd/rmSecretEnd.yy",},},
     {"id":{"name":"general_functions","path":"scripts/general_functions/general_functions.yy",},},
     {"id":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},},
     {"id":{"name":"sPlayerCrouch","path":"sprites/sPlayerCrouch/sPlayerCrouch.yy",},},
@@ -66,6 +67,7 @@
     {"roomId":{"name":"rmLevel2","path":"rooms/rmLevel2/rmLevel2.yy",},},
     {"roomId":{"name":"rmLevel3","path":"rooms/rmLevel3/rmLevel3.yy",},},
     {"roomId":{"name":"rmSecret","path":"rooms/rmSecret/rmSecret.yy",},},
+    {"roomId":{"name":"rmSecretEnd","path":"rooms/rmSecretEnd/rmSecretEnd.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
